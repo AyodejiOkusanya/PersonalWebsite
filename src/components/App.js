@@ -4,6 +4,7 @@ import Projects from './Projects';
 import Blogs from './Blogs';
 import { Route, Switch } from "react-router-dom";
 import Navbar2 from "./Navbar2";
+import ContactMe from './ContactMe'
 
 
 
@@ -22,6 +23,10 @@ class App extends React.Component {
         <Route
           path="/blogs"
           component={() => <Blogs />}
+        />
+        <Route
+          path="/contactme"
+          component={() => <ContactMe />}
         />
       </Switch>
     </div>
