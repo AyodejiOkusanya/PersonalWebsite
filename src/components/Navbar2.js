@@ -37,7 +37,7 @@ export default class Navbar2 extends Component {
             />
           </Link>
 
-          <h1 style={{ position: 'absolute', top: '1px', left:'850px',color:'white'}}>Deji</h1>
+          <h1 style={{ position: 'absolute', top: '1px', left:'700px',color:'white'}}>Deji</h1>
 
           <Menu.Menu position='right'>
             <Link to={'/contactme'}>

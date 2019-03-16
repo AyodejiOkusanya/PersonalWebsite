@@ -20,6 +20,7 @@ class Projects extends React.Component {
           <Grid.Column>
             <Image
               href='http://movie-hub.surge.sh/'
+              target='_blank'
               src={require('../images/movieapp.png')}
             />
             <p style={{ paddingTop: '10px' }}>
@@ -27,21 +28,22 @@ class Projects extends React.Component {
               Rails. Includes authentication and database relationships for
               adding frineds and seeing their liked movies.
             </p>
-            <a href='http://movie-hub.surge.sh/'>Try it out!</a>
+            <a href='http://movie-hub.surge.sh/' target='_blank'>Try it out!</a>
           </Grid.Column>
           <Grid.Column>
             <Image
               href='http://pongplus.surge.sh/'
+              target='_blank'
               src={require('../images/ponggame.png')}
             />
             <p style={{ paddingTop: '10px' }}>
               A modern spin on the classic pong game. Build with Javascript,
               HTML Canvas and Ruby on Rails.
             </p>
-            <a href='http://pongplus.surge.sh/'>Try it out!</a>
+            <a href='http://pongplus.surge.sh/' target='_blank'>Try it out!</a>
           </Grid.Column>
           <Grid.Column>
-            <Image src={require('../images/foodblogapp.png')} />
+            <Image src={require('../images/foodblogapp.png')}  />
             <p style={{ paddingTop: '10px' }}>
               A food blogging website. Functionality includes posting articles,
               commenting on posts and sending private messages. Built with Ruby
